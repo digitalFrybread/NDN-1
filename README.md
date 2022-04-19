@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1><code>substrate-ndn</code></h1>
+  <h1><code>SMARTRIB3-NDN</code></h1>
 
   <strong>A template for kick starting a Rust and Blockchain project using <a href="https://github.com/paritytech/substrate">Substrate</a>.</strong>
 
