@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-//! Low-level types used throughout the Smartrib3 ndn code.
-=======
 //! Low-level types used throughout the Substrate ndn code.
->>>>>>> b311f291e24dc5d8145a48f551dcca41ae2304e2
 
 #![warn(missing_docs)]
 #![cfg_attr(not(feature = "std"), no_std)]
