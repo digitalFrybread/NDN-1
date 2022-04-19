@@ -2,7 +2,8 @@
 
   <h1><code>SMARTRIB3-NDN</code></h1>
 
-  <strong>A template for kick starting a Rust and Blockchain project using <a href="https://github.com/paritytech/substrate">Substrate</a>.</strong>
+  <strong>A Native Derivatives Network is a  <a href="https://github.com/paritytech/substrate">Substrate</a> based blockchain that tribal communities 
+  can use as bridge to explore and get hands on with next generation technology </strong>
 
   <h3>
     <a href="https://substrate.io/">Docs</a>
