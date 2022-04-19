@@ -144,11 +144,7 @@ pub fn staging_network_config() -> ChainSpec {
 	let boot_nodes = vec![];
 
 	ChainSpec::from_genesis(
-<<<<<<< HEAD
-		"Smartrib3 ndn",
-=======
 		"Substrate ndn",
->>>>>>> b311f291e24dc5d8145a48f551dcca41ae2304e2
 		"ndn_network",
 		ChainType::Live,
 		staging_network_config_genesis,
