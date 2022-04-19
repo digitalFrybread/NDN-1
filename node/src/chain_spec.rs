@@ -144,8 +144,8 @@ pub fn staging_network_config() -> ChainSpec {
 	let boot_nodes = vec![];
 
 	ChainSpec::from_genesis(
-		"Substrate Stencil",
-		"stencil_network",
+		"Substrate ndn",
+		"ndn_network",
 		ChainType::Live,
 		staging_network_config_genesis,
 		boot_nodes,
