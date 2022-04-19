@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1><code>substrate-stencil</code></h1>
+  <h1><code>substrate-ndn</code></h1>
 
   <strong>A template for kick starting a Rust and Blockchain project using <a href="https://github.com/paritytech/substrate">Substrate</a>.</strong>
 
@@ -36,28 +36,27 @@ Use the following command to build the node and run it after build successfully:
 
 ```sh
 cargo build --release
-./target/release/substrate-stencil --dev
+./target/release/substrate-ndn --dev
 ```
 
 ## Run public testnet
 
 * Modify the genesis config in chain_spec.rs
-* Build spec, `./target/release/substrate-stencil build-spec --chain staging > stencil-staging.json`
-* Change original spec to encoded raw spec, `./target/release/substrate-stencil build-spec --chain=stencil-staging.json --raw > stencil-staging-raw.json`
-* Start your bootnodes, node key can be generate with command `./target/release/substrate-stencil key generate-node-key`.
+* Build spec, `./target/release/substrate-ndn build-spec --chain staging > ndn-staging.json`
+* Change original spec to encoded raw spec, `./target/release/substrate-ndn build-spec --chain=ndn-staging.json --raw > ndn-staging-raw.json`
+* Start your bootnodes, node key can be generate with command `./target/release/substrate-ndn key generate-node-key`.
   ```shell
-  ./target/release/substrate-stencil \
-       --node-key <your-node-key> \
+  ./target/release/substrate-ndn \
+       --node-key 0xe33b82d1da14ba60ef6c7e97857ef2c0552d26d79452f686fcc670ce754059be \
        --base-path /tmp/bootnode1 \
-       --chain stencil-staging-raw.json \
-       --name bootnode1
+       --chain ndn-staging-raw.json \
+       --name NDNode
   ```
 * Start your initial validators,
   ```shell
-  ./target/release/substrate-stencil \
+  ./target/release/substrate-ndn \
       --base-path  /tmp/validator1 \
-      --chain   stencil-staging-raw.json \
-      --bootnodes  /ip4/<your-bootnode-ip>/tcp/30333/p2p/<your-bootnode-peerid> \
+      --chain   ndn-staging-raw.json \
 	    --port 30336 \
 	    --ws-port 9947 \
 	    --rpc-port 9936 \
