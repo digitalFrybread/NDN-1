@@ -6,9 +6,7 @@
   can use as bridge to explore and get hands on with next generation technology </strong>
 
   <h3>
-    <a href="https://substrate.io/">Docs</a>
-    <span> | </span>
-    <a href="https://matrix.to/#/!HzySYSaIhtyWrwiwEV:matrix.org?via=matrix.parity.io&via=matrix.org&via=web3.foundation">Chat</a>
+   NDN is a next generation Blockchain built on top of substrate framework that is bring distributed technology to indian country
   </h3>
 
 </div>
